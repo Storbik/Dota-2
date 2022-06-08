@@ -5,14 +5,14 @@
   <title>{% block title %}{% endblock %}</title>
   <link href="{% static "css/blog.css" %}" rel="stylesheet">
 </head>
-<body>
+<body style="background-image: url('{% static "img/my-image.jpg" %}');">
   <div id="content">
     {% block content %}
     {% endblock %}
   </div>
   <div id="sidebar">
-    <h2>My blog</h2>
-    <p>This is my blog.</p>
+    <h2>Животные</h2>
+    <p>интересные картинки с питомцами</p>
   </div>
 </body>
 </html>

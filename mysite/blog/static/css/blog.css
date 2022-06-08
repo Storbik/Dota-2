@@ -1,26 +1,39 @@
-body { 
+body {
+	color:#00F0ff;
     margin:0;
     padding:0;
-    font-family:helvetica, sans-serif; 
+    font-family:helvetica, sans-serif;
+	background-size: 146% auto;
 }
 
 a { 
-    color:#00abff;
+    color:#00F0ff;
     text-decoration:none; 
 }
 
 h1 { 
     font-weight:normal;
+	color:#F0F0ff;
     border-bottom:1px solid #bbb;
     padding:0 0 10px 0;
 }
-
-h2 {
-    font-weight:normal;
-    margin:30px 0 0;
+p {
+ font-size: 28px;
+ color:#cfe940
+ ;
+ font-style:Montserrat;
+	
 }
 
-#content { 
+h2 {
+	color:#0FF0fF;
+    font-weight:normal;
+    margin:10px 0 0;
+	font-size:46px;
+}
+
+#content {
+    color:#FFFf;	
     float:left;
     width:60%;
     padding:0 0 0 30px; 
@@ -30,14 +43,14 @@ h2 {
     float:right;
     width:30%;
     padding:10px;
-    background:#efefef; 
+    /*background:#efefef; */ 
     height:100%;
 }
 
 p.date { 
-    color:#ccc;
+    color:#fff;
     font-family: georgia, serif;
-    font-size: 12px;
+    font-size: 22px;
     font-style: italic; 
 }
 
@@ -81,12 +94,14 @@ input[type=submit] {
 /* comments */
 .comment {
     padding:10px;
+	font-size:230px;
 }
 .comment:nth-child(even) {
-    background:#efefef;
+    
+	
 }
 .comment .info {
     font-weight:bold;
-    font-size:12px;
+    font-size:29px;
     color:#666;
 }
